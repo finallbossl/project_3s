@@ -35,10 +35,14 @@ namespace _3SLand.Data.Configuration
             builder.Property(c => c.CustomerType)
                    .HasMaxLength(10);
 
-            builder.Property(c => c.Notes);
+            //builder.Property(c => c.Notes);
 
             builder.Property(c => c.CreatedAt)
                    .HasDefaultValueSql("CURRENT_DATE");
+            builder.HasMany(c => c.RealEstates)
+       .WithOne(r => r.Customer)
+       .HasForeignKey(r => r.Seller)
+       .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

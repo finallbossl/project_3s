@@ -79,7 +79,7 @@ namespace FSA_3S.Models.Entities
         public List<RealEstateEntity>? RealEstatesUpdated { get; set; }
 
         // Mapping với Appointment
-        public List<MappingUserAppointmentEntity>? MappingUserAppointments { get; set; }
+        public ICollection<MappingUserAppointmentEntity> MappingUserAppointments { get; set; } = new List<MappingUserAppointmentEntity>();
 
         // Mapping với Notification
         public List<MappingUserNotificationEntity>? MappingUserNotifications { get; set; }

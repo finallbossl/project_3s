@@ -12,10 +12,11 @@ namespace FSA_3S.Models.Entities
 
         [ForeignKey("UserId")]
         public int UserId { get; set; }
-        public UserEntity User { get; set; } = null!;
+        public UserEntity? User { get; set; }
 
         [ForeignKey("AppointmentId")]
         public int AppointmentId { get; set; }
-        public AppointmentEntity Appointment { get; set; } = null!;
+        public AppointmentEntity? Appointment { get; set; }
+        
     }
 }

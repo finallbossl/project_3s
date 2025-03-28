@@ -54,7 +54,7 @@ namespace FSA_3S.Controllers
                 Console.WriteLine("Mat khau nhap vao : " + request.Password);
 
                 var token = GenerateJwtToken(user);
-                return Ok(new { message = "Đăng nhập thành công!", role = user.Role, token });
+                return Ok(new { message = "Đăng nhập thành công!", userId = user.UserId ,role = user.Role, token });
             }
             catch (Exception ex)
             {
@@ -92,6 +92,7 @@ namespace FSA_3S.Controllers
             
             var claims = new[]
             {
+        new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
         new Claim(JwtRegisteredClaimNames.Sub, user.Email),
         new Claim(ClaimTypes.Role, user.Role ?? string.Empty),
         new Claim("UserId", user.UserId.ToString())

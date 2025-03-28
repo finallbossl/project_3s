@@ -1,46 +1,46 @@
-﻿using FSA_3S.DTOs;
-using FSA_3S.Enum;
-using FSA_3S.Models.Entities;
-using FSA_3S.Repositories.Interface;
-using FSA_3S.Services.Interface;
+﻿    using FSA_3S.DTOs;
+    using FSA_3S.Enum;
+    using FSA_3S.Models.Entities;
+    using FSA_3S.Repositories.Interface;
+    using FSA_3S.Services.Interface;
 
-namespace FSA_3S.Services.Service
-{
-    public class StaffService(IStaffRepository staffRepository) : IStaffService
+    namespace FSA_3S.Services.Service
     {
-        private readonly IStaffRepository _staffRepository = staffRepository;
-
-        /// <summary>
-        /// API GET User role Staff
-        /// </summary>
-        /// <param name="role"></param>
-        /// <returns></returns>
-        public async Task<IEnumerable<StaffDTO>> GetStaffByRoleAsync(string role)
+        public class StaffService(IStaffRepository staffRepository) : IStaffService
         {
-            var users = await _staffRepository.GetUsersByRoleAsync(role);
+            private readonly IStaffRepository _staffRepository = staffRepository;
 
-            return users.Select(u => new StaffDTO
+            /// <summary>
+            /// API GET User role Staff
+            /// </summary>
+            /// <param name="role"></param>
+            /// <returns></returns>
+            public async Task<IEnumerable<StaffDTO>> GetStaffByRoleAsync(string role)
             {
-                UserId = u.UserId,
-                Email = u.Email,
-                FullName = u.FullName,
-                PhoneNumber = u.PhoneNumber,
-                Gender = u.Gender,
-                BirthDate = u.BirthDate,
-                CCCD = u.CCCD,
-                Role = u.Role,
-                CreateDate = u.CreateDate
-            }).ToList();
-        }
+                var users = await _staffRepository.GetUsersByRoleAsync(role);
 
-        /// <summary>
-        /// API PUT Unable User role Staff
-        /// </summary>
-        /// <param name="userId"></param>
-        /// <returns></returns>
-        public async Task<UnableStaffResponse> ToggleAccountStatusAsync(int userId)
-        {
-            return await _staffRepository.ToggleAccountStatusAsync(userId);
+                return users.Select(u => new StaffDTO
+                {
+                    UserId = u.UserId,
+                    Email = u.Email,
+                    FullName = u.FullName,
+                    PhoneNumber = u.PhoneNumber,
+                    Gender = u.Gender,
+                    BirthDate = u.BirthDate,
+                    CCCD = u.CCCD,
+                    Role = u.Role,
+                    CreateDate = u.CreateDate
+                }).ToList();
+            }
+
+            /// <summary>
+            /// API PUT Unable User role Staff
+            /// </summary>
+            /// <param name="userId"></param>
+            /// <returns></returns>
+            public async Task<UnableStaffResponse> ToggleAccountStatusAsync(int userId)
+            {
+                return await _staffRepository.ToggleAccountStatusAsync(userId);
+            }
         }
     }
-}

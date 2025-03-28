@@ -47,10 +47,33 @@ namespace FSA_3S.Services.Service
             await _emailService.SendEmailUser(email, subject, message);
             return "Tạo tài khoản thành công!";
         }
+              public async Task<List<UserDto>> GetAllEmployeesAsync()
+        {
+            return await _appDbContext.Users
+                .Select(user => new UserDto
+                {
+                    Id = user.UserId,
+                    FullName = user.FullName,
+                    Email = user.Email,
+                    Role = user.Role,
+                    CreatedAt = user.CreateDate
+                })
+                .ToListAsync();
+        }
+        public class UserDto
+        {
+            public int Id { get; set; }
+            public string FullName { get; set; }
+            public string Email { get; set; }
+            public string Role { get; set; }
+            public DateTime CreatedAt { get; set; }
+        }
+
 
         private string GenerateRandomPassword()
         {
-            return Guid.NewGuid().ToString("N").Substring(0, 8);
+            return Guid.NewGuid().ToString(
+                "N").Substring(0, 8);
         }
 
 

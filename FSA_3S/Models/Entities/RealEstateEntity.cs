@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using FSA_3S.Enum;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FSA_3S.Models.Entities
@@ -13,25 +14,36 @@ namespace FSA_3S.Models.Entities
         [Required]
         [Column("name")]
         [StringLength(50)]
-        public required string Name { get; set; }
+        public required string RealEstateName { get; set; }
 
+        [Required]
         [Column("type")]
-        [StringLength(10)]
-        public string? Type { get; set; }
+        [StringLength(20)]
+        public RealEstateTypeEnum RealEstateType { get; set; }
 
+        [Required]
         [Column("status")]
-        [StringLength(10)]
-        public string? Status { get; set; }
+        [StringLength(20)]
+        public RealEstateStatusEnum RealEstateStatus { get; set; }
 
-        [Column("price")]
-        public float Price { get; set; }
+        [Column("price", TypeName = "decimal(18,2)")]
+        public decimal Price { get; set; }
 
-        [Column("bedrooms")]
-        public int? Bedrooms { get; set; }
+        [Required]
+        [ForeignKey(nameof(Customer))]
+        [Column("sellerid")]
+        public int Seller { get; set; }
+        public CustomerEntity? Customer { get; set; }
 
-        [Column("bathrooms")]
-        public int? Bathrooms { get; set; }
+        [Required]
+        [Column("coordinates")]
+        public string Coordinate { get; set; } = string.Empty;
 
+        [Required]
+        [Column("saledate")]
+        public DateTime SaleDate { get; set; }
+
+        [Required]
         [Column("image_path")]
         [StringLength(255)]
         public string? ImagePath { get; set; }
@@ -43,21 +55,23 @@ namespace FSA_3S.Models.Entities
         [Column("description")]
         public string? Description { get; set; }
 
-        [ForeignKey("CreatedBy")]
-        public DateTime CreatedBy { get; set; }
+        [Required]
+        [ForeignKey(nameof(Creator))]
+        [Column("createdBy")]
+        public int CreatedBy { get; set; }
         public UserEntity? Creator { get; set; }
 
-        [ForeignKey("UpdatedBy")]
+        [ForeignKey(nameof(Updater))]
+        [Column("updatedBy")]
         public int? UpdatedBy { get; set; }
         public UserEntity? Updater { get; set; }
 
         [Column("createdat")]
-        public DateOnly? CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; }
 
         [Column("updatedat")]
-        public DateOnly? UpdatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
 
-        public List<MappingRealEstateCustomerEntity>? MappingRealEstateCustomers { get; set; }
-        public List<ContractEntity>? Contracts { get; set; }
+        public List<ContractEntity> Contracts { get; set; } = new List<ContractEntity>();
     }
 }

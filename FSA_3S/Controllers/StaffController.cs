@@ -26,7 +26,7 @@ namespace FSA_3S.Controllers
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPut("PUT (Unable)")]
         public async Task<IActionResult> ChangeAccountStatus(int userId)
         {

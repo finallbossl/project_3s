@@ -12,21 +12,29 @@ namespace FSA_3S.Data.Configuration
 
             builder.HasKey(r => r.RealEstateId);
 
-            builder.Property(r => r.Name)
+            builder.Property(r => r.RealEstateName)
                    .IsRequired()
                    .HasMaxLength(50);
 
-            builder.Property(r => r.Type)
+            builder.Property(r => r.RealEstateType)
                    .HasMaxLength(10);
 
-            builder.Property(r => r.Status)
+            builder.Property(r => r.RealEstateStatus)
                    .HasMaxLength(10);
 
             builder.Property(r => r.Price)
                    .IsRequired();
 
-            builder.Property(r => r.Bedrooms);
-            builder.Property(r => r.Bathrooms);
+            builder.Property(r => r.Seller)
+                .IsRequired()
+                   .HasMaxLength(20);
+
+            builder.Property(r => r.SaleDate)
+                .IsRequired()
+                   .HasMaxLength(20);
+
+            builder.Property(r => r.Coordinate)
+                   .HasMaxLength(20);
 
             builder.Property(r => r.ImagePath)
                    .HasMaxLength(255);
@@ -38,6 +46,11 @@ namespace FSA_3S.Data.Configuration
 
             builder.Property(r => r.CreatedAt)
                    .HasDefaultValueSql("CURRENT_DATE");
+
+            builder.HasOne(r => r.Customer)
+                   .WithMany(c => c.RealEstates)
+                   .HasForeignKey(r => r.Seller)
+                   .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using FSA_3S.Enum;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FSA_3S.Models.Entities
@@ -10,9 +11,9 @@ namespace FSA_3S.Models.Entities
         [Column("clauseId")]
         public int ClauseId { get; set; }
 
-        [ForeignKey("ContractId")]
-        public int ContractId { get; set; }
-        public ContractEntity Contract { get; set; } = null!;
+        //[ForeignKey("ContractId")]
+        //public int ContractId { get; set; }
+        //public ContractEntity Contract { get; set; } = null!;
 
         [Column("clauseNumber")]
         public int ClauseNumber { get; set; }
@@ -21,6 +22,7 @@ namespace FSA_3S.Models.Entities
         public string? ClauseContent { get; set; }
 
         [Column("clauseType")]
-        public string? ClauseType { get; set; }
+        public ClauseTypeEnum ClauseType { get; set; }
+        public List<MappingContractClauseEntity> ContractClauses { get; set; } = [];
     }
 }
