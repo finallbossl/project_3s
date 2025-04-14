@@ -18,5 +18,6 @@ namespace FSA_3S.Repositories.Interface
         /// <param name="role"></param>
         /// <returns></returns>
         Task<UnableStaffResponse> ToggleAccountStatusAsync(int userId);
+        Task<UserEntity?> GetUserByIdAsync(int userId);
     }
 }

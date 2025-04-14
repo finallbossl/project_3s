@@ -1,45 +1,60 @@
-﻿using FSA_3S.Models;
-using FSA_3S.Repositories;
+﻿using CloudinaryDotNet;
+using FSA_3S.Helpers;
+using FSA_3S.Models;
+using FSA_3S.Repositories.Interface;
 using FSA_3S.Repositories.Repository;
-using FSA_3S.Services.Service;
 using FSA_3S.Services.Interface;
+using FSA_3S.Services.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
-using FSA_3S.Repositories.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowReactApp",
-        policy =>
-        {
-            policy.WithOrigins("http://localhost:3000")
-                  .AllowAnyMethod()
-                  .AllowAnyHeader();
-        });
+    options.AddPolicy("AllowReactApp", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000")
+              .AllowAnyMethod()
+              .AllowAnyHeader()
+              .AllowCredentials();
+    });
 });
 
-// --- 1. Cấu hình kết nối database ---
 var connectionString = builder.Configuration.GetConnectionString("Db");
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connectionString));
 
-// --- 2.1 Resign Service ---
+builder.Services.AddControllers(); 
+
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<EmailService>();
 builder.Services.AddScoped<ReportService>();
 builder.Services.AddScoped<IStaffService, StaffService>();
 builder.Services.AddScoped<IContractService, ContractService>();
+builder.Services.AddScoped<IPersonalInformationService, PersonalInformationService>();
+builder.Services.AddScoped<ICustomerService, CustomerService>();
+builder.Services.AddScoped<IRealEstateService, RealEstateService>();
+builder.Services.AddScoped<CloudinaryService>();
+builder.Services.AddScoped<IAuditService, AuditService>();
+builder.Services.AddScoped<IWorkService, WorkService>();
+builder.Services.AddScoped<INotificationService, NotificationService>();
+builder.Services.AddScoped<IAppointmentService, AppointmentService>();
+builder.Services.AddScoped<IMappingUserAppointmentService, MappingUserAppointmentService>();
 
-// --- 2.2 Resign Repository
 builder.Services.AddScoped<IStaffRepository, StaffRepository>();
 builder.Services.AddScoped<IContractRepository, ContractRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<IRealEstateRepository, RealEstateRepository>();
+builder.Services.AddScoped<IWorkRepository, WorkRepository>();
+builder.Services.AddScoped<IAppointmentRepository, AppointmentRepository>();
+builder.Services.AddScoped<IMappingUserAppointmentRepository, MappingUserAppointmentRepository>();
+builder.Services.AddScoped<INotificationRepository, NotificationRepository>();
 
-// --- 3. Cấu hình JWT Authentication ---
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -56,12 +71,26 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-// --- 4. Cấu hình Swagger và Controllers ---
+builder.Services.AddSingleton(provider =>
+{
+    var config = provider.GetRequiredService<IConfiguration>();
+    var account = new Account(
+        config["Cloudinary:CloudName"],
+        config["Cloudinary:ApiKey"],
+        config["Cloudinary:ApiSecret"]
+    );
+    return new Cloudinary(account);
+});
+
+builder.Services.AddSignalR();
+builder.Services.AddSingleton<NotificationHub>();
+
+
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddSwaggerGen(options =>
 {
-    // ✅ Thêm phần cấu hình cho Bearer Token
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
@@ -88,31 +117,36 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
-builder.Services.AddControllers();
-
 var app = builder.Build();
 
-// --- 5. Chạy migration (nếu có) ---
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
-    var context = services.GetRequiredService<AppDbContext>();
-    context.Database.Migrate();
+    try
+    {
+        var context = services.GetRequiredService<AppDbContext>();
+        context.Database.Migrate();
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Migration Error: {ex.Message}");
+    }
 }
 
-// --- 6. Cấu hình pipeline HTTP ---
+app.UseHttpsRedirection();
+app.UseCors("AllowReactApp");
+
+app.UseRouting();
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.MapControllers();
+app.MapHub<NotificationHub>("/notificationHub");
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-app.UseCors("AllowReactApp");
-app.UseRouting();
-
-app.UseAuthentication(); // ✅ Kích hoạt Authentication
-app.UseAuthorization(); // ✅ Kích hoạt Authorization
-
-app.MapControllers();
 
 app.Run();

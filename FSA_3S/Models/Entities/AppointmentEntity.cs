@@ -32,18 +32,26 @@ namespace FSA_3S.Models.Entities
         [StringLength(255)]
         public string? Address { get; set; }
 
-        [ForeignKey("CreatedBy")]
-        public DateTime CreatedBy { get; set; }
+        [Required]
+        [ForeignKey(nameof(Creator))]
+        [Column("createdBy")]
+        public int CreatedBy { get; set; }
         public UserEntity? Creator { get; set; }
 
-        [ForeignKey("UpdatedBy")]
+        [ForeignKey(nameof(Updater))]
+        [Column("updatedBy")]
         public int? UpdatedBy { get; set; }
         public UserEntity? Updater { get; set; }
 
-        [Column("createdAt")]
+        [Column("createdat")]
         public DateTime CreatedAt { get; set; }
 
-        [Column("updatedAt")]
-        public DateTime UpdatedAt { get; set; }
+        [Column("updatedat")]
+        public DateTime? UpdatedAt { get; set; }
+
+        public ICollection<MappingUserAppointmentEntity> MappingUserAppointments { get; set; } = new List<MappingUserAppointmentEntity>();
+
+       
     }
+
 }

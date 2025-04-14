@@ -7,6 +7,7 @@ using System.Text;
 using BCrypt.Net;
 using FSA_3S.Models;
 using FSA_3S.Models.Entities;
+using FSA_3S.Enum;
 
 namespace FSA_3S.Controllers
 {
@@ -27,22 +28,23 @@ namespace FSA_3S.Controllers
         [HttpPost("dangnhap")]
         public async Task<IActionResult> UserLogin([FromBody] LoginRequest request)
         {
+            var user = await _appDbContext.Users.FirstOrDefaultAsync(x => x.Email == request.Email);
+            if (user == null)
+            {
+                return Unauthorized(new { message = "Tài khoản không tồn tại!" });
+            }
+            if (user.Status == UserStatusEnum.Inactive)
+            {
+                return Unauthorized(new { message = "Tài khoản của bạn đã bị vô hiệu hóa. Vui lòng liên hệ với quản trị viên." });
+            }
             try
             {
-                // 1. Kiểm tra dữ liệu đầu vào
                 if (string.IsNullOrWhiteSpace(request.Email) || string.IsNullOrWhiteSpace(request.Password))
                 {
                     return BadRequest(new { message = "Email và mật khẩu không được để trống!" });
                 }
 
-                // 2. Tìm user theo Email
-                var user = await _appDbContext.Users.FirstOrDefaultAsync(x => x.Email == request.Email);
-                if (user == null)
-                {
-                    return Unauthorized(new { message = "Tài khoản không tồn tại!" });
-                }
-
-                // 3. Kiểm tra mật khẩu bằng BCrypt
+                
                 bool isPasswordValid = BCrypt.Net.BCrypt.Verify(request.Password, user.Password);
                 if (!isPasswordValid)
                 {
@@ -54,7 +56,7 @@ namespace FSA_3S.Controllers
                 Console.WriteLine("Mat khau nhap vao : " + request.Password);
 
                 var token = GenerateJwtToken(user);
-                return Ok(new { message = "Đăng nhập thành công!", role = user.Role, token });
+                return Ok(new { message = "Đăng nhập thành công!", userId = user.UserId ,role = user.Role, token });
             }
             catch (Exception ex)
             {
@@ -80,18 +82,17 @@ namespace FSA_3S.Controllers
             Console.WriteLine("JWT Issuer: " + issuer);
             Console.WriteLine("JWT Audience: " + audience);
 
-            // Kiểm tra các giá trị cấu hình
             if (string.IsNullOrEmpty(key))
                 throw new InvalidOperationException("Chưa có khởi tạo cấu hình JWT Key trong appsettings.json");
             if (string.IsNullOrEmpty(issuer) || string.IsNullOrEmpty(audience))
                 throw new InvalidOperationException("Chưa có khởi tạo cấu hình JWT Issuer hoặc Audience trong appsettings.json");
 
-            // Chuyển key thành mảng byte
             var keyBytes = Encoding.UTF8.GetBytes(key);
 
             
             var claims = new[]
             {
+        new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
         new Claim(JwtRegisteredClaimNames.Sub, user.Email),
         new Claim(ClaimTypes.Role, user.Role ?? string.Empty),
         new Claim("UserId", user.UserId.ToString())
@@ -107,7 +108,7 @@ namespace FSA_3S.Controllers
                     SecurityAlgorithms.HmacSha256)
             );
 
-            // Trả về token dạng chuỗi
+
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }

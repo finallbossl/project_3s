@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using FSA_3S.Enum;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FSA_3S.Models.Entities
@@ -14,11 +15,13 @@ namespace FSA_3S.Models.Entities
         [Column("fullname")]
         [StringLength(50)]
         public required string FullName { get; set; }
-
-        [Required]
+        [Column("gender")]
+        [StringLength(10)]
+        public string? Gender { get; set; }
+     
         [Column("email")]
         [StringLength(50)]
-        public required string Email { get; set; }
+        public string? Email { get; set; }
 
         [Column("phonenumber")]
         [StringLength(13)]
@@ -27,27 +30,26 @@ namespace FSA_3S.Models.Entities
         [Column("address")]
         [StringLength(250)]
         public string? Address { get; set; }
-
-        [Column("gender")]
-        [StringLength(10)]
-        public string? Gender { get; set; }
-
-        [Column("cccd")]
-        [StringLength(13)]
+        [Column("CCCD")]
+        [StringLength(20)]
         public string? CCCD { get; set; }
 
         [Column("customertype")]
         [StringLength(10)]
-        public string? CustomerType { get; set; }
-
-        [Column("notes")]
-        public string? Notes { get; set; }
+        public CustomerTypeEnum CustomerType { get; set; }
 
         [Column("createdat")]
-        public DateOnly CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; }
 
-        public List<MappingRealEstateCustomerEntity>? MappingRealEstateCustomers { get; set; }
-        public List<ContractEntity>? Contracts { get; set; }
+        public List<RealEstateEntity> RealEstates { get; set; } = [];
+
+        [InverseProperty("Buyer")]
+        public List<MappingContractCustomerEntity> BuyerMappings { get; set; } = [];
+
+        [InverseProperty("Seller")]
+        public List<MappingContractCustomerEntity> SellerMappings { get; set; } = [];
+
         public List<AppointmentEntity>? Appointments { get; set; }
+
     }
 }

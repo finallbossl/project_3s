@@ -1,4 +1,5 @@
 ﻿using FSA_3S.Services.Service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +12,7 @@ namespace FSA_3S.Controllers
         private readonly UserService _userService = userService;
 
         [HttpPost("taotaikhoan")]
+        [Authorize(Roles= "Admin")]
         public async Task<IActionResult> CreateEmployee([FromBody] UserDto userDto)
         {
             try
@@ -20,13 +22,8 @@ namespace FSA_3S.Controllers
             }
             catch (DbUpdateException ex)
             {
-                // Lấy thông tin chi tiết từ InnerException
                 var detailedError = ex.InnerException?.Message ?? ex.Message;
-                return StatusCode(500, new
-                {
-                    message = "Lỗi server",
-                    error = detailedError
-                });
+                return StatusCode(500, new { message = "Lỗi server", error = detailedError });
             }
             catch (Exception ex)
             {
@@ -34,11 +31,34 @@ namespace FSA_3S.Controllers
             }
         }
 
+        [HttpGet("danhsachtaikhoan")]
+        [Authorize]
+        public async Task<IActionResult> GetAllEmployees()
+        {
+            try
+            {
+                var users = await _userService.GetAllEmployeesAsync();
+
+                if (users == null || users.Count == 0)
+                {
+                    return NotFound(new { message = "Không có tài khoản nào trong hệ thống." });
+                }
+
+                return Ok(users);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Lỗi server", error = ex.Message });
+            }
+        }
+
+        
         public class UserDto
         {
             public string Email { get; set; }
             public string Role { get; set; }
             public string FullName { get; set; }
+            public  string status { get; set; }
         }
     }
 }

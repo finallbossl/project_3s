@@ -1,38 +1,1140 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Laptop\\source\\repos\\FSA_3S_BDS\\",
+  "WorkspaceRootPath": "C:\\Users\\Laptop\\Desktop\\git\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\source\\repos\\fsa_3s_bds\\fsa_3s\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\helpers\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\helpers\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\helpers\\useridhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\helpers\\useridhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\controllers\\realestatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\controllers\\realestatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\services\\service\\workservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\services\\service\\workservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\services\\interface\\iworkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\services\\interface\\iworkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\controllers\\mappinguserappointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\controllers\\mappinguserappointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\respone\\workresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\respone\\workresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\controllers\\workcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\controllers\\workcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\services\\service\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\services\\service\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\repositories\\interface\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\repositories\\interface\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\repositories\\interface\\iworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\repositories\\interface\\iworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\repositories\\repository\\workrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\repositories\\repository\\workrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\repositories\\repository\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\repositories\\repository\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\repositories\\interface\\imappinguserappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\repositories\\interface\\imappinguserappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\services\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\services\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\services\\service\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\services\\service\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\services\\service\\realestateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\services\\service\\realestateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\services\\service\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\services\\service\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\services\\service\\mappinguserappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\services\\service\\mappinguserappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\services\\service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\services\\service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\services\\service\\contractservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\services\\service\\contractservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\services\\interface\\irealestateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\services\\interface\\irealestateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\services\\interface\\imappinguserappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\services\\interface\\imappinguserappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\repositories\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\repositories\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\repositories\\repository\\realestaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\repositories\\repository\\realestaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\repositories\\repository\\mappinguserappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\repositories\\repository\\mappinguserappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\repositories\\repository\\contractrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\repositories\\repository\\contractrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\repositories\\interface\\irealestaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\repositories\\interface\\irealestaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\repositories\\interface\\icontractrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\repositories\\interface\\icontractrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\respone\\unablestaffrespone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\respone\\unablestaffrespone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\respone\\realestaterespone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\respone\\realestaterespone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\respone\\mappinguserappointmentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\respone\\mappinguserappointmentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\respone\\customerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\respone\\customerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\requests\\realestaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\requests\\realestaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\requests\\mappinguserappointmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\requests\\mappinguserappointmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\requests\\customerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\requests\\customerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\entities\\workentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\entities\\workentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\entities\\reportentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\entities\\reportentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\entities\\realestateentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\entities\\realestateentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\entities\\notificationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\entities\\notificationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\entities\\mappinguserappointmententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\entities\\mappinguserappointmententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\entities\\mappingcontractcustomerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\entities\\mappingcontractcustomerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\entities\\mappingcontractclauseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\entities\\mappingcontractclauseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\entities\\customerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\entities\\customerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\entities\\clauseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\entities\\clauseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\models\\entities\\appointmententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\models\\entities\\appointmententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\enum\\userenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\enum\\userenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\enum\\realestatestatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\enum\\realestatestatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\enum\\contractstatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\enum\\contractstatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\enum\\clausetypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\enum\\clausetypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\enum\\approvalstatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\enum\\approvalstatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\controllers\\personalinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\controllers\\personalinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\controllers\\contractcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\controllers\\contractcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\source\\repos\\fsa_3s_bds\\fsa_3s\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\controllers\\auditcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\controllers\\auditcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\source\\repos\\fsa_3s_bds\\fsa_3s\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\data\\configuration\\notificationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\data\\configuration\\notificationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\source\\repos\\fsa_3s_bds\\fsa_3s\\entity\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\entity\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\migrations\\20250403034631_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\migrations\\20250403034631_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\source\\repos\\fsa_3s_bds\\fsa_3s\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|c:\\users\\laptop\\desktop\\git\\fsa_3s\\migrations\\20250403173336_ten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD91818-F402-4E6F-99A2-9D4EB664D10E}|FSA_3S\\FSA_3S.csproj|solutionrelative:fsa_3s\\migrations\\20250403173336_ten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 185,
+          "DockedHeight": 560,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserIdHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Helpers\\UserIdHelpers.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Helpers\\UserIdHelpers.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Helpers\\UserIdHelpers.cs",
+              "RelativeToolTip": "FSA_3S\\Helpers\\UserIdHelpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T08:05:55.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WorkService.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Service\\WorkService.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Services\\Service\\WorkService.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Service\\WorkService.cs",
+              "RelativeToolTip": "FSA_3S\\Services\\Service\\WorkService.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAD4v1AAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:13:53.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MappingUserAppointmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\MappingUserAppointmentController.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Controllers\\MappingUserAppointmentController.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\MappingUserAppointmentController.cs",
+              "RelativeToolTip": "FSA_3S\\Controllers\\MappingUserAppointmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:50:33.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IWorkService.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Interface\\IWorkService.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Services\\Interface\\IWorkService.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Interface\\IWorkService.cs",
+              "RelativeToolTip": "FSA_3S\\Services\\Interface\\IWorkService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:21:01.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RealEstateController.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\RealEstateController.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Controllers\\RealEstateController.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\RealEstateController.cs",
+              "RelativeToolTip": "FSA_3S\\Controllers\\RealEstateController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwGkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T15:52:58.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotificationHub.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Helpers\\NotificationHub.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Helpers\\NotificationHub.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Helpers\\NotificationHub.cs",
+              "RelativeToolTip": "FSA_3S\\Helpers\\NotificationHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:15:29.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StaffService.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Service\\StaffService.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Services\\Service\\StaffService.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Service\\StaffService.cs",
+              "RelativeToolTip": "FSA_3S\\Services\\Service\\StaffService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T07:06:16.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WorkController.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\WorkController.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Controllers\\WorkController.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\WorkController.cs",
+              "RelativeToolTip": "FSA_3S\\Controllers\\WorkController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T07:07:48.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WorkResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Respone\\WorkResponse.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\Respone\\WorkResponse.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Respone\\WorkResponse.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\Respone\\WorkResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T07:25:33.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IStaffRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Interface\\IStaffRepository.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Repositories\\Interface\\IStaffRepository.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Interface\\IStaffRepository.cs",
+              "RelativeToolTip": "FSA_3S\\Repositories\\Interface\\IStaffRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:18:47.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IWorkRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Interface\\IWorkRepository.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Repositories\\Interface\\IWorkRepository.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Interface\\IWorkRepository.cs",
+              "RelativeToolTip": "FSA_3S\\Repositories\\Interface\\IWorkRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T07:05:51.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WorkRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Repository\\WorkRepository.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Repositories\\Repository\\WorkRepository.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Repository\\WorkRepository.cs",
+              "RelativeToolTip": "FSA_3S\\Repositories\\Repository\\WorkRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T07:05:46.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StaffRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Repository\\StaffRepository.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Repositories\\Repository\\StaffRepository.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Repository\\StaffRepository.cs",
+              "RelativeToolTip": "FSA_3S\\Repositories\\Repository\\StaffRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T07:05:44.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Program.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Program.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Program.cs",
+              "RelativeToolTip": "FSA_3S\\Program.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:43:00.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Controllers\\StaffController.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "FSA_3S\\Controllers\\StaffController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T02:59:18.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Services\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Service\\UserService.cs",
+              "RelativeToolTip": "FSA_3S\\Services\\Service\\UserService.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAUwCYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:20:00.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Service\\NotificationService.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Services\\Service\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Service\\NotificationService.cs",
+              "RelativeToolTip": "FSA_3S\\Services\\Service\\NotificationService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwCIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T14:31:41.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Service\\CustomerService.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Services\\Service\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Service\\CustomerService.cs",
+              "RelativeToolTip": "FSA_3S\\Services\\Service\\CustomerService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:57:51.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IMappingUserAppointmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Interface\\IMappingUserAppointmentRepository.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Repositories\\Interface\\IMappingUserAppointmentRepository.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Interface\\IMappingUserAppointmentRepository.cs",
+              "RelativeToolTip": "FSA_3S\\Repositories\\Interface\\IMappingUserAppointmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:44:54.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MappingUserAppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Service\\MappingUserAppointmentService.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Services\\Service\\MappingUserAppointmentService.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Service\\MappingUserAppointmentService.cs",
+              "RelativeToolTip": "FSA_3S\\Services\\Service\\MappingUserAppointmentService.cs",
+              "ViewState": "AgIAANwAAAAAAAAAAAAwwOUAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:34:55.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Service\\ReportService.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Services\\Service\\ReportService.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Service\\ReportService.cs",
+              "RelativeToolTip": "FSA_3S\\Services\\Service\\ReportService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:59:49.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ContractService.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Service\\ContractService.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Services\\Service\\ContractService.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Service\\ContractService.cs",
+              "RelativeToolTip": "FSA_3S\\Services\\Service\\ContractService.cs",
+              "ViewState": "AgIAAEsBAAAAAAAAAAAwwOgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:57:09.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IRealEstateService.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Interface\\IRealEstateService.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Services\\Interface\\IRealEstateService.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Interface\\IRealEstateService.cs",
+              "RelativeToolTip": "FSA_3S\\Services\\Interface\\IRealEstateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:29:32.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RealEstateService.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Service\\RealEstateService.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Services\\Service\\RealEstateService.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Service\\RealEstateService.cs",
+              "RelativeToolTip": "FSA_3S\\Services\\Service\\RealEstateService.cs",
+              "ViewState": "AgIAAEUBAAAAAAAAAAAwwM0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:22:18.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IMappingUserAppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Interface\\IMappingUserAppointmentService.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Services\\Interface\\IMappingUserAppointmentService.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Services\\Interface\\IMappingUserAppointmentService.cs",
+              "RelativeToolTip": "FSA_3S\\Services\\Interface\\IMappingUserAppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:38:11.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Repositories\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "FSA_3S\\Repositories\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA5wCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:18:08.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RealEstateRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Repository\\RealEstateRepository.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Repositories\\Repository\\RealEstateRepository.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Repository\\RealEstateRepository.cs",
+              "RelativeToolTip": "FSA_3S\\Repositories\\Repository\\RealEstateRepository.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAADwvzYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:18:31.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MappingUserAppointmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Repository\\MappingUserAppointmentRepository.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Repositories\\Repository\\MappingUserAppointmentRepository.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Repository\\MappingUserAppointmentRepository.cs",
+              "RelativeToolTip": "FSA_3S\\Repositories\\Repository\\MappingUserAppointmentRepository.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:45:22.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ContractRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Repository\\ContractRepository.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Repositories\\Repository\\ContractRepository.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Repository\\ContractRepository.cs",
+              "RelativeToolTip": "FSA_3S\\Repositories\\Repository\\ContractRepository.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:55:50.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IRealEstateRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Interface\\IRealEstateRepository.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Repositories\\Interface\\IRealEstateRepository.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Interface\\IRealEstateRepository.cs",
+              "RelativeToolTip": "FSA_3S\\Repositories\\Interface\\IRealEstateRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:17:17.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IContractRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Interface\\IContractRepository.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Repositories\\Interface\\IContractRepository.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Interface\\IContractRepository.cs",
+              "RelativeToolTip": "FSA_3S\\Repositories\\Interface\\IContractRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T15:31:13.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAA6wHwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:54:01.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Repositories\\Interface\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Repositories\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "FSA_3S\\Repositories\\Interface\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:17:34.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UnableStaffRespone.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Respone\\UnableStaffRespone.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\Respone\\UnableStaffRespone.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Respone\\UnableStaffRespone.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\Respone\\UnableStaffRespone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:53:53.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RealEstateRespone.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Respone\\RealEstateRespone.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\Respone\\RealEstateRespone.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Respone\\RealEstateRespone.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\Respone\\RealEstateRespone.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:53:42.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CustomerResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Respone\\CustomerResponse.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\Respone\\CustomerResponse.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Respone\\CustomerResponse.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\Respone\\CustomerResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:53:25.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CustomerRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Requests\\CustomerRequest.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\Requests\\CustomerRequest.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Requests\\CustomerRequest.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\Requests\\CustomerRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:52:30.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "WorkEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\WorkEntity.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\Entities\\WorkEntity.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\WorkEntity.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\Entities\\WorkEntity.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:52:15.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RealEstateEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\RealEstateEntity.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\Entities\\RealEstateEntity.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\RealEstateEntity.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\Entities\\RealEstateEntity.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowEcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:12:39.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MappingUserAppointmentRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Requests\\MappingUserAppointmentRequest.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\Requests\\MappingUserAppointmentRequest.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Requests\\MappingUserAppointmentRequest.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\Requests\\MappingUserAppointmentRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:36:43.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MappingUserAppointmentResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Respone\\MappingUserAppointmentResponse.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\Respone\\MappingUserAppointmentResponse.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Respone\\MappingUserAppointmentResponse.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\Respone\\MappingUserAppointmentResponse.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:37:20.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "NotificationEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\NotificationEntity.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\Entities\\NotificationEntity.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\NotificationEntity.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\Entities\\NotificationEntity.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowBgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:51:32.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RealEstateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Requests\\RealEstateRequest.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\Requests\\RealEstateRequest.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Requests\\RealEstateRequest.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\Requests\\RealEstateRequest.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAADwv0sAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:30:07.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "MappingContractCustomerEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\MappingContractCustomerEntity.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\Entities\\MappingContractCustomerEntity.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\MappingContractCustomerEntity.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\Entities\\MappingContractCustomerEntity.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:51:12.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "MappingContractClauseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\MappingContractClauseEntity.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\Entities\\MappingContractClauseEntity.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\MappingContractClauseEntity.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\Entities\\MappingContractClauseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:51:07.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ReportEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\ReportEntity.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\Entities\\ReportEntity.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\ReportEntity.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\Entities\\ReportEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T00:16:01.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\UserEntity.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\Entities\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\UserEntity.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\Entities\\UserEntity.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:02:45.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CustomerEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\CustomerEntity.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\Entities\\CustomerEntity.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\CustomerEntity.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\Entities\\CustomerEntity.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAA/wDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:50:48.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ClauseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\ClauseEntity.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\Entities\\ClauseEntity.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\ClauseEntity.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\Entities\\ClauseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:50:36.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MappingUserAppointmentEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\MappingUserAppointmentEntity.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\Entities\\MappingUserAppointmentEntity.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\MappingUserAppointmentEntity.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\Entities\\MappingUserAppointmentEntity.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAywCYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:02:56.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ClauseTypeEnum.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Enum\\ClauseTypeEnum.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Enum\\ClauseTypeEnum.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Enum\\ClauseTypeEnum.cs",
+              "RelativeToolTip": "FSA_3S\\Enum\\ClauseTypeEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:08:41.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ApprovalStatusEnum.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Enum\\ApprovalStatusEnum.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Enum\\ApprovalStatusEnum.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Enum\\ApprovalStatusEnum.cs",
+              "RelativeToolTip": "FSA_3S\\Enum\\ApprovalStatusEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:12:52.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ContractStatusEnum.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Enum\\ContractStatusEnum.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Enum\\ContractStatusEnum.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Enum\\ContractStatusEnum.cs",
+              "RelativeToolTip": "FSA_3S\\Enum\\ContractStatusEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:10:13.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "RealEstateStatusEnum.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Enum\\RealEstateStatusEnum.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Enum\\RealEstateStatusEnum.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Enum\\RealEstateStatusEnum.cs",
+              "RelativeToolTip": "FSA_3S\\Enum\\RealEstateStatusEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:11:58.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UserEnum.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Enum\\UserEnum.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Enum\\UserEnum.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Enum\\UserEnum.cs",
+              "RelativeToolTip": "FSA_3S\\Enum\\UserEnum.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:10:04.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AppointmentEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\AppointmentEntity.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Models\\Entities\\AppointmentEntity.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Models\\Entities\\AppointmentEntity.cs",
+              "RelativeToolTip": "FSA_3S\\Models\\Entities\\AppointmentEntity.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAUwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:30:50.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Controllers\\ReportController.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "FSA_3S\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T00:16:44.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "PersonalInformationController.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\PersonalInformationController.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Controllers\\PersonalInformationController.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\PersonalInformationController.cs",
+              "RelativeToolTip": "FSA_3S\\Controllers\\PersonalInformationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:43:03.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "FSA_3S\\Controllers\\NotificationController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T08:45:05.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "FSA_3S\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:39:51.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ContractController.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\ContractController.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Controllers\\ContractController.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\ContractController.cs",
+              "RelativeToolTip": "FSA_3S\\Controllers\\ContractController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T15:26:22.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FSA_3S\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:16:03.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "AuditController.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\AuditController.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Controllers\\AuditController.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\AuditController.cs",
+              "RelativeToolTip": "FSA_3S\\Controllers\\AuditController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:39:44.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "FSA_3S\\Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAowHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:39:42.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "FSA_3S\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:11:36.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\appsettings.json",
+              "RelativeDocumentMoniker": "FSA_3S\\appsettings.json",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\appsettings.json",
+              "RelativeToolTip": "FSA_3S\\appsettings.json",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T03:43:36.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "20250403173336_ten.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Migrations\\20250403173336_ten.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Migrations\\20250403173336_ten.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Migrations\\20250403173336_ten.cs",
+              "RelativeToolTip": "FSA_3S\\Migrations\\20250403173336_ten.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:33:37.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "NotificationConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Data\\Configuration\\NotificationConfiguration.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Data\\Configuration\\NotificationConfiguration.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Data\\Configuration\\NotificationConfiguration.cs",
+              "RelativeToolTip": "FSA_3S\\Data\\Configuration\\NotificationConfiguration.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:44:47.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "20250403034631_database.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Migrations\\20250403034631_database.cs",
+              "RelativeDocumentMoniker": "FSA_3S\\Migrations\\20250403034631_database.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\git\\FSA_3S\\Migrations\\20250403034631_database.cs",
+              "RelativeToolTip": "FSA_3S\\Migrations\\20250403034631_database.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:46:32.529Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 57,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 57,
           "SelectedChildIndex": -1,
           "Children": [
             {
@@ -42,102 +1144,16 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         },
         {
-          "DockedWidth": 29,
-          "SelectedChildIndex": 2,
+          "DockedHeight": 698,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\FSA_3S_BDS\\FSA_3S\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "FSA_3S\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\FSA_3S_BDS\\FSA_3S\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "FSA_3S\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T02:34:34.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\FSA_3S_BDS\\FSA_3S\\Entity\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "FSA_3S\\Entity\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\FSA_3S_BDS\\FSA_3S\\Entity\\AppDbContext.cs",
-              "RelativeToolTip": "FSA_3S\\Entity\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T01:42:48.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\FSA_3S_BDS\\FSA_3S\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "FSA_3S\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\FSA_3S_BDS\\FSA_3S\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "FSA_3S\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T01:40:48.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\FSA_3S_BDS\\FSA_3S\\Service\\EmailService.cs",
-              "RelativeDocumentMoniker": "FSA_3S\\Service\\EmailService.cs",
-              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\FSA_3S_BDS\\FSA_3S\\Service\\EmailService.cs",
-              "RelativeToolTip": "FSA_3S\\Service\\EmailService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBIAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T17:34:22.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAMgUAAAAAAAAAAArwNsUAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-03-09T17:08:52.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\FSA_3S_BDS\\FSA_3S\\Entity\\User.cs",
-              "RelativeDocumentMoniker": "FSA_3S\\Entity\\User.cs",
-              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\FSA_3S_BDS\\FSA_3S\\Entity\\User.cs",
-              "RelativeToolTip": "FSA_3S\\Entity\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T16:58:11.739Z",
-              "EditorCaption": ""
             }
           ]
         }

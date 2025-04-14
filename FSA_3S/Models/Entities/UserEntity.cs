@@ -65,6 +65,7 @@ namespace FSA_3S.Models.Entities
 
         [InverseProperty("Updater")]
         public List<AppointmentEntity>? AppointmentsUpdated { get; set; }
+        public ICollection<WorkEntity> Works { get; set; } = [];
 
         [InverseProperty("Creator")]
         public List<ContractEntity>? ContractsCreated { get; set; }
@@ -78,10 +79,8 @@ namespace FSA_3S.Models.Entities
         [InverseProperty("Updater")]
         public List<RealEstateEntity>? RealEstatesUpdated { get; set; }
 
-        // Mapping với Appointment
-        public List<MappingUserAppointmentEntity>? MappingUserAppointments { get; set; }
+        public ICollection<MappingUserAppointmentEntity> MappingUserAppointments { get; set; } = new List<MappingUserAppointmentEntity>();
 
-        // Mapping với Notification
         public List<MappingUserNotificationEntity>? MappingUserNotifications { get; set; }
     }
 }

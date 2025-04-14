@@ -41,5 +41,14 @@ namespace FSA_3S.Repositories.Repository
 
             return new UnableStaffResponse(true, user.Status);
         }
+        /// <summary>
+        /// Work
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <returns></returns>
+        public async Task<UserEntity?> GetUserByIdAsync(int userId)
+        {
+            return await _context.Users.FindAsync(userId);
+        }
     }
 }

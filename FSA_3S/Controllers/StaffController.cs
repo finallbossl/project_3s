@@ -26,8 +26,8 @@ namespace FSA_3S.Controllers
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
-        [Authorize(Roles = "admin")]
-        [HttpPut("PUT (Unable)")]
+        [Authorize(Roles = "Admin")]
+        [HttpPut("staff/{userId}/status")]
         public async Task<IActionResult> ChangeAccountStatus(int userId)
         {
             var result = await _staffService.ToggleAccountStatusAsync(userId);
@@ -40,5 +40,6 @@ namespace FSA_3S.Controllers
                 Message = $"Tài khoản với ID {userId} đã được chuyển sang trạng thái {result.Status}"
             });
         }
+
     }
 }

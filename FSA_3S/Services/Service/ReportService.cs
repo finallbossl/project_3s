@@ -13,13 +13,11 @@ public class ReportService
         _context = context;
     }
 
-    // Lấy danh sách tất cả các báo cáo
     public async Task<List<ReportEntity>> GetAllReportsAsync()
     {
         return await _context.Reports.ToListAsync();
     }
 
-    // Lấy báo cáo theo ID
     public async Task<ReportEntity?> GetReportByIdAsync(int id)
     {
         return await _context.Reports.FirstOrDefaultAsync(r => r.ReportId == id);
